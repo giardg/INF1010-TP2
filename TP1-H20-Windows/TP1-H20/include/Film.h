@@ -3,6 +3,7 @@
 
 #include <memory>
 #include <string>
+#include <vector> //?
 #include "Auteur.h"
 #include "Pays.h"
 
@@ -34,6 +35,8 @@ public:
     const std::string& getNom() const;
     Auteur* getAuteur();
 
+    friend std::ostream& operator<<(std::ostream& stream, const Film& film);
+
 private:
     // Attributs
     std::string nom_;
@@ -43,9 +46,9 @@ private:
     bool estRestreintParAge_;
     Auteur* auteur_;
 
-    std::unique_ptr<Pays[]> paysRestreints_;
-    std::size_t nbPaysRestreints_;
-    std::size_t capacitePaysRestreints_;
+    std::vector<Pays> paysRestreints_; //changé pour vecteur
+    //std::size_t nbPaysRestreints_;
+    //std::size_t capacitePaysRestreints_;
 };
 
 #endif // FILM_H

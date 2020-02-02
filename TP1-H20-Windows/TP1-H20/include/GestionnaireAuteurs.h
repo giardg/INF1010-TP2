@@ -2,6 +2,7 @@
 #define GESTIONNAIREAUTEURS_H
 
 #include <string>
+#include <vector> //?
 #include "Auteur.h"
 
 class GestionnaireAuteurs

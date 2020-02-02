@@ -1,0 +1,43 @@
+﻿  Auteur.cpp
+  Film.cpp
+  GestionnaireAuteurs.cpp
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\include\GestionnaireAuteurs.h(24,10): error C2039: 'vector': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\string(24): message : see declaration of 'std'
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\include\GestionnaireAuteurs.h(24,16): error C2143: syntax error: missing ';' before '<'
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\include\GestionnaireAuteurs.h(24,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\include\GestionnaireAuteurs.h(24,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\src\GestionnaireAuteurs.cpp(9,21): error C2039: 'vector': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\sstream(20): message : see declaration of 'std'
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\src\GestionnaireAuteurs.cpp(9,27): error C2065: 'vector': undeclared identifier
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\src\GestionnaireAuteurs.cpp(9,28): error C2275: 'Auteur': illegal use of this type as an expression
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\include\Auteur.h(6): message : see declaration of 'Auteur'
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\src\GestionnaireAuteurs.cpp(9,7): error C2614: 'GestionnaireAuteurs': illegal member initialization: 'auteurs_' is not a base or member
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\src\GestionnaireAuteurs.cpp(24,5): error C2065: 'auteurs_': undeclared identifier
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\src\GestionnaireAuteurs.cpp(35,13): error C2065: 'auteurs_': undeclared identifier
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\src\GestionnaireAuteurs.cpp(37,21): error C2065: 'auteurs_': undeclared identifier
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\src\GestionnaireAuteurs.cpp(74,9): error C2065: 'auteurs_': undeclared identifier
+  Librairie.cpp
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\include\GestionnaireAuteurs.h(24,10): error C2039: 'vector': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\string(24): message : see declaration of 'std'
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\include\GestionnaireAuteurs.h(24,16): error C2143: syntax error: missing ';' before '<'
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\include\GestionnaireAuteurs.h(24,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\include\GestionnaireAuteurs.h(24,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\include\Librairie.h(24,13): error C2039: 'vector': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\string(24): message : see declaration of 'std'
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\include\Librairie.h(24,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\include\Librairie.h(24,19): error C2143: syntax error: missing ';' before '<'
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\include\Librairie.h(24,60): error C2238: unexpected token(s) preceding ';'
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\src\Librairie.cpp(20,1): error C2789: 'Librairie::vector': an object of const-qualified type must be initialized
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\include\Librairie.h(24): message : see declaration of 'Librairie::vector'
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\src\Librairie.cpp(30,12): error C2039: 'vector': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\sstream(20): message : see declaration of 'std'
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\src\Librairie.cpp(30,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\src\Librairie.cpp(30,18): error C2143: syntax error: missing ';' before '<'
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\src\Librairie.cpp(30,54): error C2039: 'getFilms': is not a member of 'Librairie'
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\include\Librairie.h(8): message : see declaration of 'Librairie'
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\src\Librairie.cpp(31,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\src\Librairie.cpp(31,1): error C2447: '{': missing function header (old-style formal list?)
+  main.cpp
+C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\src\main.cpp(317,11): warning C4189: 'totalPoints': local variable is initialized but not referenced
+  Utilisateur.cpp
+  Generating Code...

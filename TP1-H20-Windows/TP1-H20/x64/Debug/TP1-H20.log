@@ -1,7 +1,2 @@
 ﻿  Librairie.cpp
-C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\src\Librairie.cpp(32,18): error C2440: 'return': cannot convert from 'Film **const ' to 'const std::vector<std::unique_ptr<Film,std::default_delete<Film>>,std::allocator<std::unique_ptr<Film,std::default_delete<Film>>>> &'
-C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\src\Librairie.cpp(32,18): message : Reason: cannot convert from 'Film **const ' to 'const std::vector<std::unique_ptr<Film,std::default_delete<Film>>,std::allocator<std::unique_ptr<Film,std::default_delete<Film>>>>'
-C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\src\Librairie.cpp(32,18): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-  main.cpp
-C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\TP1-H20\src\main.cpp(317,11): warning C4189: 'totalPoints': local variable is initialized but not referenced
-  Generating Code...
+  TP1-H20.vcxproj -> C:\Users\grego\Documents\Université\Session 8\Programmation Orientée Objet\TP2\INF1010-TP2\TP1-H20-Windows\x64\Debug\TP2-H20.exe

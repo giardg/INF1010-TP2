@@ -31,7 +31,7 @@ int main()
 
     std::vector<bool> tests;
 
-#if false
+#if true
     // Test 1 et 2: Lecture des fichiers et affichage.
     // Assurez-vous de mettre les fichiers à la bonne place pour que
     // le programme puisse les trouver.
@@ -105,7 +105,7 @@ int main()
     tests.push_back(false);
 #endif
 
-#if false
+#if true
     // Test 3: operateur d'ajout d'auteurs
     bool test3Reussi = true;
     // Remplir le tableau des auteurs
@@ -130,7 +130,7 @@ int main()
     tests.push_back(false);
 #endif
 
-#if false
+#if true
     // Test 4: Fonction recherche d'auteurs
     const Auteur* auteurTest = gestionnaireAuteurs.chercherAuteur("George Lucas");
     const Auteur* auteurInexsistant = gestionnaireAuteurs.chercherAuteur("qwerty");
@@ -142,7 +142,7 @@ int main()
     tests.push_back(false);
 #endif
 
-#if false
+#if true
     // Test 5: Ajouter des films
     std::size_t nbFilmsAvantTest8 = librairie.getNbFilms();
     static constexpr unsigned int test8NbFilmsAjouter = 200;
@@ -160,7 +160,7 @@ int main()
     tests.push_back(false);
 #endif
 
-#if false
+#if true
     // Test 6: Supprimer des films
     // On supprime tous les films ajoutés au test 8
     std::size_t nbFilmsAvantTest9 = librairie.getNbFilms();
@@ -177,7 +177,7 @@ int main()
     tests.push_back(false);
 #endif
 
-#if false
+#if true
     // Test 7: Recherche film
     Film* raidersOfTheLostArk = librairie.chercherFilm("Raiders of the Lost Ark");
     tests.push_back(raidersOfTheLostArk != nullptr &&
@@ -188,7 +188,7 @@ int main()
     tests.push_back(false);
 #endif
 
-#if false
+#if true
     // Test 8: Utilisateur non premium limite de films
     Auteur auteur("Test", 23);
     Film film("film1", 1990, Film::Genre::Comedie, Pays::Mexique, false, &auteur);
@@ -225,7 +225,7 @@ int main()
     tests.push_back(false);
 #endif
 
-#if false
+#if true
 
     // test 11-12 operateur == de Auteur.
     Auteur auteur4("Test", 23);
@@ -239,7 +239,7 @@ int main()
     tests.push_back(false);
 #endif
 
-#if false
+#if true
 
     // test 13 constructeur de copie de librairie.
     librairie += new Film("tes2t", 1, Film::Genre::Action, Pays::Canada, false, &auteurTest8);
@@ -252,7 +252,7 @@ int main()
     tests.push_back(false);
 #endif
 
-#if false
+#if true
 
     // test 14 operateur= de librairie.
     Librairie lib3;
@@ -265,7 +265,7 @@ int main()
     tests.push_back(false);
 #endif
 
-#if false
+#if true
 
     // test 15 cascade de l'operateur << pour auteur
     std::stringstream auteurStream;
@@ -288,7 +288,7 @@ int main()
     tests.push_back(false);
 #endif
 
-#if false
+#if true
 
     // test 16 cascade de l'operateur << pour Film
 

@@ -169,5 +169,10 @@ std::ostream& operator<<(std::ostream& stream, const Film& film)
            << "\n\tGenre: " << getGenreString(film.genre_)
            << "\n\tAuteur: " << film.auteur_->getNom() << "\n\tPays: " << getPaysString(film.pays_)
            << (film.paysRestreints_.size() == 0 ? "\n\tAucun pays restreint." : "\n\tPays restreints:");
+    for (std::size_t i = 0; i < film.paysRestreints_.size(); i++)
+    {
+        stream << "\n\t\t" << getPaysString(film.paysRestreints_[i]);
+    }
+    stream << '\n';
     return stream;
 }

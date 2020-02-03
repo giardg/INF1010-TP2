@@ -9,20 +9,24 @@ class Librairie
 {
 public:
     Librairie();
-    Librairie(const Librairie&);
-    Librairie& operator=(const Librairie&);
+    Librairie(const Librairie& l);
+    Librairie& operator=(const Librairie& l);
     ~Librairie();
 
-    void ajouterFilm(Film* film);
-    void retirerFilm(const std::string& nomFilm);
+    // void ajouterFilm(Film* film);
+    // void retirerFilm(const std::string& nomFilm);
     Film* chercherFilm(const std::string& nomFilm);
     bool chargerFilmsDepuisFichier(const std::string& nomFichier,
                                    GestionnaireAuteurs& gestionnaireAuteurs);
     bool chargerRestrictionsDepuisFichiers(const std::string& nomFichier);
-    void afficher(std::ostream& stream) const;
+    // void afficher(std::ostream& stream) const;
 
-	const std::vector<std::unique_ptr<Film>>& getFilms() const;
+    const std::vector<std::unique_ptr<Film>>& getFilms() const;
     std::size_t getNbFilms() const;
+
+    Librairie& operator+=(Film* film);
+    Librairie& operator-=(const std::string& nomFilm);
+    friend std::ostream& operator<<(std::ostream& stream, const Librairie& librairie);
 
 private:
     void supprimerFilms();
@@ -31,9 +35,10 @@ private:
     int trouverIndexFilm(const std::string& nomFilm) const;
 
     // Movies array
-    Film** films_;
-    std::size_t nbFilms_;
-    std::size_t capaciteFilms_;
+    std::vector<std::unique_ptr<Film>> films_;
+    // Film** films_;
+    // std::size_t nbFilms_;
+    // std::size_t capaciteFilms_;
 };
 
 #endif // LIBRAIRIE_H
